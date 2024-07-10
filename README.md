@@ -5,13 +5,21 @@ This is going to be my personal battery service, my current vision is to turn th
 ## Installation:
 
 Clone this repo:
-
+```
+git clone https://github.com/elvis-f/ESBS
+```
 Change directory:
-`cd ESBS`
+```
+cd ESBS
+```
 Give run permissions:
-`chmod +x install.sh`
+```
+chmod +x install.sh
+```
 Run the install script
-`./install.sh`
+```
+./install.sh
+```
 ...or manually copy the files and register it as a `systemd` timer service with:
 ```
 systemctl daemon-reload
