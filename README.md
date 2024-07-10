@@ -25,3 +25,11 @@ Run the install script
 systemctl daemon-reload
 systemctl enable elvis-simple-battery.timer
 ```
+
+## Usage
+
+Battery stats will be kept in `/var/log/battery-levels.log`
+
+### Format
+
+Format of the stats current is just a battery level on each line :D
